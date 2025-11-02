@@ -78,6 +78,12 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 If you only want to view results, open the notebook and review the rendered outputs without re-running.
 
+## Data source
+
+The season CSV files in this repository were obtained from Football-Data.co.uk:
+
+- https://www.football-data.co.uk/englandm.php
+
 ## Notes
 
 - Data selection: the code loads all local season files matching `20*.csv`. Subsequent filtering for enhanced features uses dates `>= 2020-01-01`, and evaluation uses a test split from `2024-01-01` onward.
